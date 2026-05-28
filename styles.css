@@ -135,11 +135,11 @@ header strong {
 }
 
 .btn:hover {
-   transform: translateY(-5px);
+    transform: translateY(-5px);
 
-   box-shadow: 0 0 15px var(--green-primary);
+    box-shadow: 0 0 15px var(--green-primary);
 
-   color: var(--green-primary);
+    color: var(--green-primary);
 }
 
 #terminal {
@@ -169,7 +169,7 @@ header strong {
 }
 
 #terminal ul {
-   margin-left: 20px;
+    margin-left: 20px;
 }
 
 #terminal li {
@@ -182,7 +182,7 @@ header strong {
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: 15px;
-    padding:30px;
+    padding: 30px;
     margin-bottom: 30px;
     transition: 0.3s;
 }
@@ -223,9 +223,45 @@ section a:hover {
 
 aside {
     background-color: var(--card-bg);
-    border: 1px solid var(--border-color);
+    border-left: 5px solid var(--border-color);
     border-radius: 15px;
-    padding:30px;
-    margin-bottom: 30px;
-    transition: 0.3s;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+aside p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+aside strong {
+    color: var(--green-primary);
+}
+
+footer {
+
+    text-align: center;
+
+    padding: 30px;
+
+    border-top: 1px solid var(--border-color);
+
+    margin-top: 30px;
+}
+
+footer p {
+
+    font-size: 0.9em;
+    color: var(--text-gray);
+
+    margin-bottom: 5px;
+}
+
+.emoji {
+    
+    text-decoration: underline;
+
+    text-underline-offset: 8px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--green-primary);
 }
