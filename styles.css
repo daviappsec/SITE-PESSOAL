@@ -38,7 +38,6 @@ body {
     padding: 20px;
 }
 
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -94,6 +93,10 @@ nav button:hover {
 header {
     padding: 30px 8%;
 
+}
+
+p {
+    font-size: 1.1em;
 }
 
 header p {
@@ -191,6 +194,7 @@ header strong {
     box-shadow: 0 0 15px rgba(0, 255, 102, 0.3);
 }
 
+
 section h2 {
     font-family: var(--font-title);
     color: var(--green-primary);
@@ -264,4 +268,51 @@ footer p {
     text-underline-offset: 8px;
     text-decoration-thickness: 3px;
     text-decoration-color: var(--green-primary);
+}
+
+.direita {
+    text-align: right;
+    color: var(--text-gray);
+    padding: 5px;
+}
+
+aside:hover {
+    box-shadow: 0 0 15px rgba(0, 255, 102, 0.3);
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    a {
+        
+
+    display: flex;
+
+    gap: 20px;
+
+    margin-top: 30px;
+
+    }
 }
