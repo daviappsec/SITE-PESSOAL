@@ -281,7 +281,7 @@ aside:hover {
 }
 
 main {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -295,6 +295,7 @@ img {
     nav {
         flex-direction: column;
         gap: 20px;
+
     }
 
     header h1 {
@@ -316,3 +317,4 @@ img {
 
     }
 }
+
