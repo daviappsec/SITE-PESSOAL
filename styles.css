@@ -223,6 +223,112 @@ header strong {
 
     color: var(--green-primary);
 }
+
+.grafico {
+    margin-bottom: 25px;
+}
+
+.grafico p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.barrahtml {
+
+    width: 100%;
+
+    height: 12px;
+
+    background-color: #1F2937;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.barrajs {
+
+    width: 100%;
+
+    height: 12px;
+
+    background-color: #1F2937;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.barragit {
+
+    width: 100%;
+
+    height: 12px;
+
+    background-color: #1F2937;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.barracss {
+
+    width: 100%;
+
+    height: 12px;
+
+    background-color: #1F2937;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.barrahtml-progresso {
+
+    height: 100%;
+
+    background-color: var(--green-primary);
+
+    border-radius: 20px;
+
+    width: 80%;
+}
+
+.barrajs-progresso {
+
+    height: 100%;
+
+    background-color: var(--green-primary);
+
+    border-radius: 20px;
+
+    width: 20%;
+}
+
+.barragit-progresso {
+
+    height: 100%;
+
+    background-color: var(--green-primary);
+
+    border-radius: 20px;
+
+    width: 40%;
+}
+
+.barracss-progresso {
+
+    height: 100%;
+
+    background-color: var(--green-primary);
+
+    border-radius: 20px;
+
+    width: 70%;
+}
 section h2 {
     font-family: var(--font-title);
     color: var(--green-primary);
