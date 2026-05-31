@@ -50,6 +50,7 @@ nav {
 
     margin-top: 20px;
     margin-bottom: 80px;
+
 }
 
 nav a {
@@ -69,26 +70,6 @@ nav a:hover {
     text-underline-offset: 8px;
     text-decoration-thickness: 3px;
     text-decoration-color: var(--green-primary);
-}
-
-nav button {
-    background-color: transparent;
-    color: var(--green-hover);
-    border: 1px solid var(--green-primary);
-    padding: 12px 25px;
-    border-radius: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-nav button:hover {
-    background-color: var(--green-primary);
-    color: var(--bg-main);
-    font-size: 18px;
-    border-color: var(--green-hover);
-
-    border: 2px solid var(--green-primary);
 }
 
 
@@ -363,7 +344,7 @@ list-style-type: none;
 
 .number {
     color: var(--text-white);
-    
+
 }
 
 
