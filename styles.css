@@ -38,6 +38,11 @@ body {
     padding: 20px;
 }
 
+h3 {
+    font-family: var(--font-terminal);
+    font-size: 1.2em;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -173,6 +178,32 @@ header strong {
 .listapg2 {
     color: var(--text-gray);
     padding-left: 20px;
+    font-size: 1.1em;
+}
+
+.lista-projetos {
+    padding-left: 0px;
+    font-size: 1.1em;
+    list-style-type: none;
+}
+
+.lista-projetos li::before {
+    content: "✓";
+    color: var(--green-primary);
+    margin-right: 10px;
+}
+
+
+.il-lista {
+padding-left: 0px;
+font-size: 1.1em;
+list-style-type: none;
+}
+
+.il-lista li::before {
+    content: "⏳";
+    color: var(--green-primary);
+    margin-right: 0px;
 }
 
 .subtitulo {
@@ -329,6 +360,8 @@ header strong {
 
     width: 70%;
 }
+
+
 section h2 {
     font-family: var(--font-title);
     color: var(--green-primary);
