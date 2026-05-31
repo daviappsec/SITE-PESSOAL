@@ -458,15 +458,13 @@ img {
         width: 100%;
     }
 
-    a {
-        
 
-    display: flex;
+    .subtitulo {
+        font-size: 1.1rem;
+    }
 
-    gap: 20px;
-
-    margin-top: 30px;
-
+    p {
+        font-size: 1rem;
     }
 }
 
