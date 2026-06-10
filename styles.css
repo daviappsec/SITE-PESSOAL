@@ -476,12 +476,12 @@ img {
         top: 20px;
         right: -8px;
 
-    z-index: 999;
+         z-index: 999;
 
     }
 
 
-    nav.ativo{
+    nav.ativo {
         display: flex;
     }
 }
